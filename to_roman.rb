@@ -1,4 +1,5 @@
 
+  #Method to convert arabic numbers to roman numbers 
   def to_roman(n)   
    roman_numbers = {
     1000 => "M",  
@@ -23,6 +24,8 @@
     roman
   end
 
+
+#Nice format to print it out 
 a = to_roman(1) == "I"
 b = to_roman(3) == "III"  
 c = to_roman(4) == "IV"
